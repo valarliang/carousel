@@ -60,13 +60,13 @@ function toggleShape(){
 }
 
 //音乐背景
-function Html5Audio(url,loop){
-	var audio = new Audio(url);
-	audio.loop = loop;
-	audio.autoplay = true;
-	audio.play();
-}
-Html5Audio('imagse/Fade.mp3',true);
+// function Html5Audio(url,loop){
+// 	var audio = new Audio(url);
+// 	audio.loop = loop;
+// 	audio.autoplay = true;
+// 	audio.play();
+// }
+// Html5Audio('imagse/Fade.mp3',true);
         
 
 //底部
