@@ -44,9 +44,10 @@ var imgsArr = [
   'https://valarliang.github.io/carousel/imagse/9_end.png',
 ];
 var imgWrap = [];
-window.onload = function () {
+(function () {
   for(var i =0; i < imgsArr.length ;i++) {
     imgWrap[i] = new Image();
     imgWrap[i].src = imgsArr[i];
+    console.log(1111);
   }
-}
+})();
